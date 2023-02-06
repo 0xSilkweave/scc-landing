@@ -14,7 +14,7 @@ const Hero = () => {
 
         <div className="flex flex-row justify-between items-center w-full">
           <h1
-            className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px]  
+            className="flex-1 font-poppins font-semibold ss:text-[48px] text-[52px]  
           text-white ss:leadnig-[100px] leadnig-[75px]"
           >
             We are <br />{" "}

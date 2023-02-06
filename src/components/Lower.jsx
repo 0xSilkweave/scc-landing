@@ -7,7 +7,7 @@ const Lower = () => {
       className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}
     >
       <div className="flex-1 flex flex-col">
-        <h2 className={styles.heading2}>Ready to build the future of finance?</h2>
+        <h2 className={styles.heading2}>Building the future of finance?</h2>
         <p className={`${styles.paragraph} max-w-[650px] mt-5`}>
           By providing the activism, support and guidance early-stage projects benefit from, we are able to help push forward the Web3 movement.
         </p>
