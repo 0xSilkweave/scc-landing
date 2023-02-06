@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "../style";
-import { discount, robot } from "../assets";
-import GetStarted from "./GetStarted";
+import { robot } from "../assets";
 
 const Hero = () => {
   return (
@@ -19,7 +18,7 @@ const Hero = () => {
           text-white ss:leadnig-[100px] leadnig-[75px]"
           >
             We are <br />{" "}
-            <span className="text-gradient">activist-investors</span> specializing in getting rekt
+            <span className="text-gradient">activist-investors</span> specialized in <span className="text-gradient">blockchain-enabled</span> innovation
           </h1>
 
         </div>
@@ -27,6 +26,7 @@ const Hero = () => {
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
             Our primary areas of focus are projects involved in the Web3, Gaming, DeFi and Metaverse spaces.
         </p>
+
       </div>
 
       <div

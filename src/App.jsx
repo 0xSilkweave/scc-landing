@@ -3,13 +3,7 @@ import styles from "./style";
 import {
   Navbar,
   Hero,
-  Stats,
-  Business,
-  Billing,
-  CardDeal,
-  Testemonials,
-  Clients,
-  CTA,
+  Lower,
   Footer,
 } from "./components";
 
@@ -30,10 +24,7 @@ const App = () => {
 
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-
-{/*           <Business/>
-          <Clients/>
-          <CTA/> */}
+          <Lower/>
           <Footer/>
         </div>
       </div>
