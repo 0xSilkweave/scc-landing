@@ -44,7 +44,7 @@ const Footer = () => {
           2021-2023 Sad Cat Capital. All rights reserved.
         </p>
 
-        <div className="flex flex-row md:mt-0 mt-6 ">
+{/*         <div className="flex flex-row md:mt-0 mt-6 ">
           {socialMedia.map((social, idx) => (
             <img
               key={social.id}
@@ -53,6 +53,18 @@ const Footer = () => {
                 idx !== socialMedia.length - 1 ? "mr-6" : "mr-0"
               }`}
             />
+          ))}
+        </div> */}
+        <div className="flex flex-row md:mt-0 mt-6 ">
+          {socialMedia.map((social, idx) => (
+            <a href={social.link} key={social.id}>
+              <img
+                src={social.icon}
+                className={`w-[21px] h-[21px] object-contain cursor-pointer transition ease-in-out duration-300 hover:ease-in hover:scale-[2] ${
+                    idx !== socialMedia.length - 1 ? "mr-6" : "mr-0"
+                }`}
+              />
+            </a>
           ))}
         </div>
       </div>
