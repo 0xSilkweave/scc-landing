@@ -2,20 +2,19 @@ import { telegram, twitter, email } from "../assets";
 
 export const navLinks = [
   {
-    id: "home",
+    id: "#home",
     title: "Home",
   },
   {
-    id: "about",
+    id: "#home",
     title: "About",
-    link: "https://www.twitter.com/sadcatcapital",
   },
   {
-    id: "portfolio",
+    id: "#home",
     title: "Portfolio",
   },
   {
-    id: "contact",
+    id: "mailto:hello@sadcat.capital",
     title: "Contact",
   },
 ];
