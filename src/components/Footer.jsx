@@ -7,7 +7,7 @@ const Footer = () => {
 
       <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3f3e45]">
         <p className="font-poppins font-norman text-center font-[18px] leading-[27px] text-white">
-          2021-2023 Sad Cat Capital. All rights reserved. hello@sadcat.capital
+          2021-2023 Sad Cat Capital. All rights reserved. <a className="hover_text_scc" href="mailto:hello@sadcat.capital">hello@sadcat.capital</a>
         </p>
 
         <div className="flex flex-row md:mt-0 mt-6 ">
