@@ -1,6 +1,6 @@
 # Landing Page for SCC
 
-<img src="./background.jpg" alt="Background image">
+<img src="./src/assets/background.jpg" alt="Background image">
 
 <h1>Landing Page for SCC</h1>
 
