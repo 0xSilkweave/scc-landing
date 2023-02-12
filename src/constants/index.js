@@ -6,11 +6,11 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "https://docs.sadcat.capital",
+    id: "https://docs.sadcat.capital/#about",
     title: "About",
   },
   {
-    id: "https://docs.sadcat.capital",
+    id: "https://docs.sadcat.capital/#portfolio",
     title: "Portfolio",
   },
   {
