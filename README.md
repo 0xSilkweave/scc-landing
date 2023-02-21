@@ -8,6 +8,10 @@ Very simple and clean landing page made for SCC. Built using (Vite-enabled) Reac
 
 Updating gradually as content comes in.
 
+<h2>GitBook</h2>
+- <a href="https://docs.sadcat.capital/#about" alt="About">About</a></br>
+- <a href="https://docs.sadcat.capital/#portfolio alt="Portfolio">Portfolio</a>
+
 ---
 
 <h1><img src="https://emojis.slackmojis.com/emojis/images/1643514974/10003/catjam.gif?1643514974" width="30"/> Hey there!</h1>
